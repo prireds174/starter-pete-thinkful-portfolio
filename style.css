@@ -54,7 +54,6 @@ article div {
 
 .portfolio {
   display: flex;
-  flex-direction: row;
 }
 
 /* Paragraphs */
