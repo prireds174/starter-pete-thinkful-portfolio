@@ -27,17 +27,18 @@ header {
   display: flex;
   align-items: center;
   column-gap: 30px;
+  flex-direction: row;
 }
 
 /* Containers */
 div {
+  background-color: #eae2b7;
   margin: auto;
   width: 600px;
 }
 
 article {
   padding: 50px 0;
-
 }
 
 article div {
@@ -45,20 +46,21 @@ article div {
   width: 100%;
 }
 
-.info{
-  text-align: left;
-}
+/* My Additions */
 
-#about .about {
-  display: flex;
-}
-
-#portfolio .portfolio {
+/*Portfolio styling*/
+.artwork{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  font-size: 14px;
+}
+/* Styling to bio image*/
+.about-bio{
+  display: flex;
+  flex-direction: row;
+}
+/* Applied Styling to bio Blurb*/
+.about-words{
+  text-align: start;
 }
 
 
@@ -101,3 +103,5 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+
