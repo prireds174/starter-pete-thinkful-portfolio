@@ -6,6 +6,9 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Headings */
@@ -20,9 +23,8 @@ h3 {
 header {
   text-align: center;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  column-gap: 30px;
 }
 
 /* Containers */
@@ -42,9 +44,12 @@ article div {
   width: 100%;
 }
 
-.about {
+.info{
+  text-align: left;
+}
+
+#about .about {
   display: flex;
-  align-items: center;
 }
 
 .portfolio {
