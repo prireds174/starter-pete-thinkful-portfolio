@@ -19,8 +19,6 @@ h3 {
 /* Header */
 header {
   text-align: center;
-  display: flex;
-  flex-direction: row;
 }
 
 /* Containers */
@@ -41,12 +39,18 @@ article div {
 }
 
 /* Flex View */
+
 .artwork {
   display: flex;
   flex-direction: row;
 }
 
-.about {
+.person {
+  display: flex;
+  flex-direction: row;
+}
+
+.top {
   display: flex;
   flex-direction: row;
 }
