@@ -11,6 +11,12 @@ body {
   align-items: center;
 }
 
+#portfolio .portfolio {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
 /* Headings */
 h1,
 h2,
@@ -50,11 +56,6 @@ article div {
 
 #about .about {
   display: flex;
-}
-
-.portfolio {
-  display: flex;
-  font-size: 14px;
 }
 
 .portfolio img{
