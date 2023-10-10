@@ -30,11 +30,17 @@ div {
 
 article {
   padding: 50px 0;
+
 }
 
 article div {
   text-align: center;
   width: 100%;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Paragraphs */
