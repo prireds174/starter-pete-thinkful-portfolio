@@ -54,6 +54,7 @@ article div {
 
 .portfolio {
   display: flex;
+  font-size: 14px;
 }
 
 .portfolio img{
