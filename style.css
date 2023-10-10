@@ -19,6 +19,8 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Containers */
@@ -38,7 +40,13 @@ article div {
   width: 100%;
 }
 
-.portfolio {
+/* Flex View */
+.artwork {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
   display: flex;
   flex-direction: row;
 }
